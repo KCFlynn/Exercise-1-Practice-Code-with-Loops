@@ -10,39 +10,39 @@
 
       <script>
 
-for(i = 1; i <= 300; i++)
+for(i = 1; i <= 300; i++)// increments through 300
 
 {
-if(i % 3 === 0 && i % 5 === 0)
+if(i % 3 === 0 && i % 5 === 0) //finds numbers divisable by 3 and 5
 {
-console.log("FizzFuzz");
+console.log("FizzFuzz"); //when those numbers are found it prints FizzFuzz
 }
 
-else if(i % 5 === 0)
+else if(i % 5 === 0) //finds numbers divisable 5
 {
-console.log("Fizz");
+console.log("Fizz"); //when those numbers are found it prints Fizz
 }
 
-else if(i % 7 === 0)
+else if(i % 7 === 0) //finds numbers divisable by 3
 {
-console.log("Fuzz");
+console.log("Fuzz"); //when those numbers are found it prints Fuzz
 }
 
 else
 {
-console.log(i);
+console.log(i); //numbers that don't meet the previous conditions are printed
 };
 
 };
 
-var hashy = '#######';
-var hashyL = hashy.length;
+var hashy = '#######'; // trignle starting ponit assigned to a variable
+var hashyL = hashy.length; //hashy variable length measured and assigned
 
-for (i = hashyL ; i >= 0; i--)
+for (i = hashyL ; i >= 0; i--) // increments through the triangle
 {
-    var hashySub = hashy.substring(0,hashyL)
-    console.log(hashySub);
-    hashyL -= 1;
+    var hashySub = hashy.substring(0,hashyL) // creates a substring variable which and indexes start and finish of the string.
+    console.log(hashySub); // prints the substring length
+    hashyL -= 1; // decrements the substring in order to create the inverted triangle
 
 };
       </script>
