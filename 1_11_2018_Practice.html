@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+
+<meta charset="UTF-8">
+</head>
+
+    <body>
+
+      <script>
+
+for(i = 1; i <= 300; i++)
+
+{
+if(i % 3 === 0 && i % 5 === 0)
+{
+console.log("FizzFuzz");
+}
+
+else if(i % 5 === 0)
+{
+console.log("Fizz");
+}
+
+else if(i % 7 === 0)
+{
+console.log("Fuzz");
+}
+
+else
+{
+console.log(i);
+};
+
+};
+
+var hashy = '#######';
+var hashyL = hashy.length;
+
+for (i = hashyL ; i >= 0; i--)
+{
+    var hashySub = hashy.substring(0,hashyL)
+    console.log(hashySub);
+    hashyL -= 1;
+
+};
+      </script>
+
+    </body>
+
+</html>
